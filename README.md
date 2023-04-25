@@ -3,3 +3,8 @@
 Repository for the Taiwan Ocean Radar Observing System analysis using CODAR data
 
 ![Alt Text](./figures/OSM23_Poster.png)
+
+Data access:
+- CODAR Data has to be requested from TORI
+- ERA5 Reanalysis data has been freely downloaded [here](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-pressure-levels?tab=overview)
+- CMEMS Geostrophic velocities have been freely downloaded [here](https://data.marine.copernicus.eu/product/SEALEVEL_GLO_PHY_L4_MY_008_047/description) 
