@@ -21,7 +21,7 @@ This has been used for the NUFFT.
 
 # Results
 ## Data Coverage
-![](./figures/data_coverage.png)
+![](./figures/data_coverage.png){width=100 height=100}
 
 The data coverage for the investigated period is quite good around the whole island.
 It is best in the Southeast, while being above 80% is the Taiwan Strait.
