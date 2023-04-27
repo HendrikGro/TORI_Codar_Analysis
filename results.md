@@ -157,7 +157,7 @@ Another second peak can be seen in the meridional velocities in the Southeast of
 <img src="./figures/coherence_codar_ssh_maxpoint.png"  width=50% height=50%>
 This could be related to mesoscale eddies, but needs further analysis.
 Maybe one could apply an eddy tracking on the surface currents.
-Winds show no strong coherence at all, which can be seen [here](./figures/coherence_raw_wind.png) .
+Winds show no strong coherence at all, which can be seen <a href="./figures/coherence_raw_wind.png">here</a>.
 In generall, one would need to calculate conficence intervalls for the coherence to see, if calculated values can really mean something.
 
 # Discussion
