@@ -97,8 +97,10 @@ The pattern of semidiurnal tides fits to the one found by [Jan2004](https://doi.
 
 ## Time Filtering
 <img src="./figures/fk_filters.png"  width=50% height=50%>
+
 The applied [Butterworth Window](./figures/butterworth_filter) removes the amplitude of the high-frequency domain including tides.
 Using these filtered frequencies to reconstruct the time series leads to a smoother time series, with most of the extreme values gone.
+
 <img src="./figures/raw_vs_filtered_example.png"  width=50% height=50%>
 As one can see, the filtered time series is very close to the daily averages.
 One downfall could be, that one removes strong wind bursts for example, which act on high frequencies as well.
@@ -107,7 +109,9 @@ However, doing this with gaps in the data is hard.
 
 ## Section in the Taiwan Strait
 The three extracted sections can be seen [here](./figures/sections_map.png).
+
 <img src="./figures/taiwanstrait_mean_coverage_northsection.png"  width=50% height=50%>
+
 The mean filtered velocities show a northward flow in the entire strait near the coast of Taiwan.
 The flow seems to follow the bathymetry in the Penghu channel, that means, turning to the west after crossing the channel.
 It then turns to the east again, back to the coast.
