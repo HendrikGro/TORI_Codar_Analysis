@@ -85,7 +85,7 @@ So keeping the data coverage in mind before interpreting too much is especially 
 As on can see in this example of the powerspectrum from the NUFFT for the u component in the Taiwan Strait, the method works quite nicely.
 Strong peaks appear at diurnal and semidiurnal frequencies showing tides.
 A seasonal fluctuation is very prominent as well.
-An example of a rotary spectrum can be seen <a href='./figures/spectral_example_rotary.png'>here</a>
+An example of a rotary spectrum can be seen <a href='./figures/spectrum_example_rotary.png'>here</a>
 # Tides
 <img src="./figures/tidal_ellipses.png"  width=50% height=50%>
 
