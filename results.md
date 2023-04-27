@@ -159,6 +159,7 @@ This could be related to mesoscale eddies, but needs further analysis.
 Maybe one could apply an eddy tracking on the surface currents.
 Winds show no strong coherence at all, which can be seen <a href="./figures/coherence_raw_wind.png">here</a>.
 In generall, one would need to calculate conficence intervalls for the coherence to see, if calculated values can really mean something.
+A description of how to do this is given in the paper by <a href='http://dx.doi.org/10.1109/ICASSP.2005.1416033'>Zoubir1988</a>.
 
 # Discussion
 All in all, the analysis revealed some interesting characteristics of the surface flow around Taiwan.
