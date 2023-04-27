@@ -140,7 +140,7 @@ The max correlation is at a lag of around 2-5 hours, shown [here](./figures/vect
 Correlation values are pretty much the same for the first couple hours.
 The veering angle in this region lies around 10 - 40 degrees.
 This is in the range of Ekman dynamics for the surface.
-A study from [Stacey1986](https://doi.org/10.1126/science.233.4762.470) says that the observational Ekman angle at the surface only is around 5-20 degrees and not the theoretical 45.
+A study from <a href="https://doi.org/10.1126/science.233.4762.470">Stacey1986</a> says that the observational Ekman angle at the surface only is around 5-20 degrees and not the theoretical 45.
 This however is not yet completely clear, because it is hard to measure.
 In the east of Taiwan, the veering angle is around 180 degrees, saying that the flow and the wind are opposing each other on average.
 This makes sense, because the mean wind is southward, while the Kuroshio current is a stable northward flow all year round.
