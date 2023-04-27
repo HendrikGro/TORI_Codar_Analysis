@@ -22,7 +22,7 @@ This has been used for the NUFFT.
 Based on the spectral analysis, a peak finding method has been used to check if there is a peak in a certain frequency range.
 If so, the amplitude and frequency of the peak were extracted.
 Spectral ellipses have been calculated using these to investigate the spatial difference in importance of certain frequencies.
-This was done based on formulas from [Walden2013](https://doi.org/10.1098/rsta.2011.0554).
+Ellipse characteristics are based on formulas from [Walden2013](https://doi.org/10.1098/rsta.2011.0554).
 The main interest was on the tidal signal, while also considering the coriolis frequency and the seasonal variation.
 
 Time Filtering has been applied to remove the tidal signal from the data.
@@ -72,9 +72,19 @@ An idea could be to release particles in the Penghu-channel each day and track t
 The data coverage for the investigated period is quite good around the whole island.
 It is best in the Southeast, while being above 80% is the Taiwan Strait.
 Therefore, the data allows reliable analysis.
-Of course one has to keep the data coverage in mind before interpreting too much.
-All analysis have been performed for each data point regardless of its coverage, so this point is especially important.
+All analysis have been performed for each data point regardless of its coverage.
+So keeping the data coverage in mind before interpreting too much is especially important.
 
 <img src="./figures/spectrum_example.png"  width=50% height=50%>
 
 As on can see in this example of the powerspectrum from the NUFFT for the u component in the Taiwan Strait, the method works quite nicely.
+Strong peaks appear at diurnal and semidiurnal frequencies showing tides.
+A seasonal fluctuation is very prominent as well.
+
+<img src="./figures/tidal ellipses.png"  width=50% height=50%>
+
+Tidal ellipses show the importance of tides around the island, but also their regional distribution.
+Semidiurnal tides dominate, especially in the Taiwan Strait, but also around the southern most tip of the island.
+Diurnal tides are stronger in the eastern part.
+The pattern of semidiurnal tides fits to the one found by [Jan2004](https://doi.org/10.1029/2003GL019373) in their modelling study.
+
