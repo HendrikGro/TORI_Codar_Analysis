@@ -81,7 +81,7 @@ As on can see in this example of the powerspectrum from the NUFFT for the u comp
 Strong peaks appear at diurnal and semidiurnal frequencies showing tides.
 A seasonal fluctuation is very prominent as well.
 
-<img src="./figures/tidal ellipses.png"  width=50% height=50%>
+<img src="./figures/tidal_ellipses.png"  width=50% height=50%>
 
 Tidal ellipses show the importance of tides around the island, but also their regional distribution.
 Semidiurnal tides dominate, especially in the Taiwan Strait, but also around the southern most tip of the island.
