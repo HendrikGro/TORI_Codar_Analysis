@@ -75,12 +75,14 @@ Therefore, the data allows reliable analysis.
 All analysis have been performed for each data point regardless of its coverage.
 So keeping the data coverage in mind before interpreting too much is especially important.
 
+## Spectral Analysis
 <img src="./figures/spectrum_example.png"  width=50% height=50%>
 
 As on can see in this example of the powerspectrum from the NUFFT for the u component in the Taiwan Strait, the method works quite nicely.
 Strong peaks appear at diurnal and semidiurnal frequencies showing tides.
 A seasonal fluctuation is very prominent as well.
-
+An example of a rotary spectrum can be seen [here](./figures/spectrum_example_rotary.png)
+# Tides
 <img src="./figures/tidal_ellipses.png"  width=50% height=50%>
 
 Tidal ellipses show the importance of tides around the island, but also their regional distribution.
@@ -88,3 +90,6 @@ Semidiurnal tides dominate, especially in the Taiwan Strait, but also around the
 Diurnal tides are stronger in the eastern part.
 The pattern of semidiurnal tides fits to the one found by [Jan2004](https://doi.org/10.1029/2003GL019373) in their modelling study.
 
+
+# Time Filtering
+<img src="./figures/fk_filters.png"  width=50% height=50%>
