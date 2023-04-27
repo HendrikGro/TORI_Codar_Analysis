@@ -15,3 +15,5 @@ For any questions, feel free to open an issue.
 
 # Run these codes
 You can use my docker container for scientific computing. See description and how to use here https://github.com/hgrosselindemann/docker-jlab
+
+I did not have time to really comment my code, I am sorry for that. I added decsriptions on the functions I defined. If you have any questions feel free to ask. Or you can dopy the code into ChatGPT and let the AI explain it to you. It works pretty well :D
