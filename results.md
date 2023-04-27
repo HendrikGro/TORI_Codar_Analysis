@@ -93,3 +93,4 @@ The pattern of semidiurnal tides fits to the one found by [Jan2004](https://doi.
 
 # Time Filtering
 <img src="./figures/fk_filters.png"  width=50% height=50%>
+The applied [Butterworth Window](./figures/butterworth_filter) removes the amplitude of the high-frequency domain including tides
