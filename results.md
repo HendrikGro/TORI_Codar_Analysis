@@ -22,7 +22,7 @@ This has been used for the NUFFT.
 Based on the spectral analysis, a peak finding method has been used to check if there is a peak in a certain frequency range.
 If so, the amplitude and frequency of the peak were extracted.
 Spectral ellipses have been calculated using these to investigate the spatial difference in importance of certain frequencies.
-Ellipse characteristics are based on formulas from [Walden2013](https://doi.org/10.1098/rsta.2011.0554).
+Ellipse characteristics are based on formulas from <a href='https://doi.org/10.1098/rsta.2011.0554'>Walden2013</a>.
 The main interest was on the tidal signal, while also considering the coriolis frequency and the seasonal variation.
 
 Time Filtering has been applied to remove the tidal signal from the data.
@@ -42,7 +42,7 @@ For the comparison of surface currents to wind and geostrophic flow, the codar d
 As the wind and geostrophic grid had not the same points while having the same resolution, the wind has been regridded as well.
 
 A vector cross-correlation technique has been applied to investigate the relation of radar-derived flow to surface windstress and geostrophic currents.
-The method is precisely described in the paper from [Kundu1976](https://doi.org/10.1175/1520-0485(1976)006%3C0238:EVONTO%3E2.0.CO;2).
+The method is precisely described in the paper from <a href='https://doi.org/10.1175/1520-0485(1976)006%3C0238:EVONTO%3E2.0.CO;2'>Kundu1976</a>.
 It basically computes a correlation coeffient as well as the average veering angle between the two vectors over time.
 The correlation coefficient is only between 0 to 1 and can not be negative.
 This information comes from the veering angle.
@@ -64,8 +64,8 @@ For codar-wind a window size of 512 has been used.
 As the geostrophic flow is only daily, surface currents have been daily averaged.
 Then, because of way less data points, the window size has been reduced to 128.
 
-I applied a lagrangian particle tracking method, [oceanparcels](https://oceanparcels.org/).
-This works quite nicely, an example can be seen [here](./figures/parcels_penghu_channel.png), but has not been used for the analysis because lack of time and not having a specific approach.
+I applied a lagrangian particle tracking method, <a href='https://oceanparcels.org/'>oceanparcels</a>.
+This works quite nicely, an example can be seen <a href='./figures/parcels_penghu_channel.png'>here</a>, but has not been used for the analysis because lack of time and not having a specific approach.
 An idea could be to release particles in the Penghu-channel each day and track them for a month or so to end up with a distribution of tracks in the Taiwan Strait.
 
 # Results
@@ -85,20 +85,20 @@ So keeping the data coverage in mind before interpreting too much is especially 
 As on can see in this example of the powerspectrum from the NUFFT for the u component in the Taiwan Strait, the method works quite nicely.
 Strong peaks appear at diurnal and semidiurnal frequencies showing tides.
 A seasonal fluctuation is very prominent as well.
-An example of a rotary spectrum can be seen [here](./figures/spectrum_example_rotary.png)
+An example of a rotary spectrum can be seen <a href='./figures/spectral_example_rotary.png'>here</a>
 # Tides
 <img src="./figures/tidal_ellipses.png"  width=50% height=50%>
 
 Tidal ellipses show the importance of tides around the island, but also their regional distribution.
 Semidiurnal tides dominate, especially in the Taiwan Strait, but also around the southern most tip of the island.
 Diurnal tides are stronger in the eastern part.
-The pattern of semidiurnal tides fits to the one found by [Jan2004](https://doi.org/10.1029/2003GL019373) in their modelling study.
+The pattern of semidiurnal tides fits to the one found by <a href='https://doi.org/10.1029/2003GL019373'>Jan2004</a> in their modelling study.
 
 
 ## Time Filtering
 <img src="./figures/fk_filters.png"  width=50% height=50%>
 
-The applied [Butterworth Window](./figures/butterworth_filter) removes the amplitude of the high-frequency domain including tides.
+The applied <a href='./figures/butterworth_filter.png'>Butterworth Window</a> removes the amplitude of the high-frequency domain including tides.
 Using these filtered frequencies to reconstruct the time series leads to a smoother time series, with most of the extreme values gone.
 
 <img src="./figures/raw_vs_filtered_example.png"  width=50% height=50%>
@@ -108,7 +108,7 @@ Performing an harmonic analysis to remove tides only could be another option.
 However, doing this with gaps in the data is hard.
 
 ## Section in the Taiwan Strait
-The three extracted sections can be seen [here](./figures/sections_map.png).
+The three extracted sections can be seen <a href='./figures/sections_map.png'>here</a>.
 
 <img src="./figures/taiwanstrait_mean_coverage_northsection.png"  width=50% height=50%>
 
@@ -118,9 +118,9 @@ It then turns to the east again, back to the coast.
 Another portion is reflected back to the south and joins the China coastal current (but low coverage there).
 When looking at the temporal evolution of the flow at the sections, a clear seasonal fluctuations appears near the coast of Taiwan.
 The northward flow is strongest in summer, but turns to being southward in winter.
-This pattern look pretty similar for all the sections, see [here](./figures/sections_hovmoeller.png).
+This pattern look pretty similar for all the sections, see <a href='./figures/sections_hovmoeller.png'>here</a>.
 However, the importance of the along- or cross-section velocity for the seasonal fluctuation differs per section.
-Time series of section means for [along](./figures/sections_mean_timeseries_along) and [cross](./figures/sections_mean_timeseries_cross) velocities show the seasonal pattern as well.
+Time series of section means for <a href='./figures/sections_mean_timeseries_along.png'>along</a> and <a href='./figures/sections_mean_timeseries_cross.png'>cross</a> velocities show the seasonal pattern as well.
 
 ## EOF Analysis
 <img src="./figures/eof_mode1_map.png"  width=50% height=50%>
@@ -136,7 +136,7 @@ Seasonal ellipses show the same thing as well.
 ## Vector cross-correlation
 <img src="./figures/vector_correlations_va_raw.png"  width=50% height=50%>
 The correlation between surface currents and the wind is strongest in the Taiwan Strait with values up to 0.6.
-The max correlation is at a lag of around 2-5 hours, shown [here](./figures/vector_correlations_lag_max.png), saying that the wind needs some time to force the oceans surface.
+The max correlation is at a lag of around 2-5 hours, shown <a href='./figures/vector_correlations_lag_max.png'>here</a>, saying that the wind needs some time to force the oceans surface.
 Correlation values are pretty much the same for the first couple hours.
 The veering angle in this region lies around 10 - 40 degrees.
 This is in the range of Ekman dynamics for the surface.
