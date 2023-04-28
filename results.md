@@ -63,6 +63,8 @@ This has been done by applying Welch's wethod and the NUFFT to extract cross-spe
 For codar-wind a window size of 512 has been used.
 As the geostrophic flow is only daily, surface currents have been daily averaged.
 Then, because of way less data points, the window size has been reduced to 128.
+The analysis is very much depending on the window size, which is however ahrd to choose.
+Probably, one would need expand the timeseries with itself a couple for times to increase the data, so one can increase the window size, in order to include the seasonal fluctuation.
 
 I applied a lagrangian particle tracking method, <a href='https://oceanparcels.org/'>oceanparcels</a>.
 This works quite nicely, an example can be seen <a href='./figures/parcels_penghu_channel.png'>here</a>, but has not been used for the analysis because lack of time and not having a specific approach.
