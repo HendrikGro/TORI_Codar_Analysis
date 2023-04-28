@@ -150,14 +150,15 @@ The geostrophic flow is also important in the southwest and in the Taiwan Strait
 Strongest correlation is at no lag. 
 
 ## Coherence
-<img src="./figures/coherence_codar_ssh.png"  width=50% height=50%>
+<img src="./figures/coherence.png"  width=50% height=50%>
+Winds show a strong coherence in the Taiwan Strait especially for the low frequencies.
+The seasonal cycle is not resolved though.
+For higher frequencies, it is pretty messy.
 Coherence is strong between the filtered surface currents and geostrophic velocities.
 The according frequency is pretty much the mean.
-Another second peak can be seen in the meridional velocities in the Southeast of Taiwan.
-<img src="./figures/coherence_codar_ssh_maxpoint.png"  width=50% height=50%>
+Another second peak can be seen in the Southeast of Taiwan.
 This could be related to mesoscale eddies, but needs further analysis.
 Maybe one could apply an eddy tracking on the surface currents.
-Winds show no strong coherence at all, which can be seen <a href="./figures/coherence_raw_wind.png">here</a>.
 In generall, one would need to calculate conficence intervalls for the coherence to see, if calculated values can really mean something.
 A description of how to do this is given in the paper by <a href='http://dx.doi.org/10.1109/ICASSP.2005.1416033'>Zoubir1988</a>.
 
